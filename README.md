@@ -388,7 +388,7 @@ Source
   ↓
 Validation
   ↓
-Valid Records ───────→ Main Pipeline
+Valid Records -----→ Main Pipeline
   ↓
 Invalid Records
   ↓
@@ -604,7 +604,7 @@ capstone/
 > Add your Alteryx workflow screenshot here.
 
 ```text
-![End-to-End Alteryx Workflow](../screenshots/workflow_overview.png)
+loading...
 ```
 
 ---
@@ -614,7 +614,7 @@ capstone/
 > Add screenshot of your validation process here.
 
 ```text
-![Data Quality Validation](../screenshots/data_quality.png)
+loading...
 ```
 
 ---
@@ -624,7 +624,7 @@ capstone/
 > Add screenshot showing matched and unmatched records.
 
 ```text
-![Join Validation](../screenshots/join_validation.png)
+loading...
 ```
 
 ---
@@ -643,7 +643,7 @@ The final dataset can be connected to a BI platform to create an executive dashb
 │  SALES   │  PROFIT  │ ORDERS   │ RETURN %   │
 ├──────────┴──────────┴──────────┴────────────┤
 │                                             │
-│       Revenue & Profit Trend               │
+│       Revenue & Profit Trend                │
 │                                             │
 ├─────────────────────┬───────────────────────┤
 │ Category Performance│ Regional Performance  │
@@ -664,25 +664,19 @@ The workflow is considered production-ready only after validating:
 ### Record-Level Validation
 
 ```text
-Source Record Count
-        =
-Expected Processed Record Count
+Source Record Count = Expected Processed Record Count
 ```
 
 ### Join Validation
 
 ```text
-Matched + Unmatched Left
-        =
-Left Input
+Matched + Unmatched Left = Left Input
 ```
 
 ### Aggregation Validation
 
 ```text
-Aggregated Sales
-        =
-Validated Transaction Sales
+Aggregated Sales = Validated Transaction Sales
 ```
 
 ### Business Metric Validation
@@ -698,27 +692,27 @@ The completed solution demonstrates the ability to build an analytics workflow t
 ```text
                 BUSINESS PROBLEM
                        ↓
-                  RAW DATA
+                    RAW DATA
                        ↓
-              DATA PROFILING
+                 DATA PROFILING
                        ↓
-             DATA QUALITY
+                  DATA QUALITY
                        ↓
-              DATA BLENDING
+                  DATA BLENDING
                        ↓
-              TRANSFORMATION
+                  TRANSFORMATION
                        ↓
-            BUSINESS METRICS
+                 BUSINESS METRICS
                        ↓
-               VALIDATION
+                   VALIDATION
                        ↓
-               AGGREGATION
+                   AGGREGATION
                        ↓
-              OPTIMIZATION
+                   OPTIMIZATION
                        ↓
-             BI-READY DATA
+                   BI-READY DATA
                        ↓
-             BUSINESS INSIGHTS
+                 BUSINESS INSIGHTS
 ```
 
 ---
@@ -781,23 +775,16 @@ That is the difference between **knowing Alteryx** and **using Alteryx professio
 
 # 🎮 Final Boss Status
 
-```text
-┌──────────────────────────────────────┐
-│                                      │
-│       🐉 CHAOS ENGINE DEFEATED       │
-│                                      │
-│      ADVANCED DATA ALCHEMIST         │
-│                                      │
-│          ★★★★★                       │
-│                                      │
-└──────────────────────────────────────┘
+```text                                 
+         🐉 CHAOS ENGINE DEFEATED
+           ADVANCED DATA ALCHEMIST         
 ```
 
 ---
 
 ## 👩‍💻 Author
 
-**[Your Name]**
+**Suviksha Pathariya**
 
 BI Developer | Data Engineer | Data Analytics
 
