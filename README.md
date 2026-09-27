@@ -144,8 +144,8 @@ Used to enrich order-level information with return status.
                               │
                               ▼
                     ┌───────────────────┐
-                    │ Data Preparation.    │
-                    │ & Standardization.   │
+                    │ Data Preparation     │
+                    │ & Standardization    │
                     └─────────┬─────────┘
                               │
                               ▼
@@ -153,7 +153,7 @@ Used to enrich order-level information with return status.
         │                                         │
         ▼                                         ▼
 ┌───────────────┐                         ┌────────────────┐
-│ Returns Data    │                         │ Reference Data.  │
+│ Returns Data    │                         │ Reference Data    │
 └───────┬───────┘                         └───────┬────────┘
         │                                         │
         └──────────────────┬──────────────────────┘
@@ -637,21 +637,20 @@ The final dataset can be connected to a BI platform to create an executive dashb
 
 ```text
 ┌─────────────────────────────────────────────┐
-│             KINGDOM COMMERCE                │
-│            EXECUTIVE OVERVIEW               │
+│             KINGDOM COMMERCE                        │
+│            EXECUTIVE OVERVIEW                       │
 ├──────────┬──────────┬──────────┬────────────┤
-│  SALES   │  PROFIT  │ ORDERS   │ RETURN %   │
+│  SALES   │  PROFIT  │ ORDERS   │ RETURN %           │
 ├──────────┴──────────┴──────────┴────────────┤
-│                                             │
-│       Revenue & Profit Trend                │
-│                                             │
+│                                                     │
+│       Revenue & Profit Trend                        │
+│                                                     │
 ├─────────────────────┬───────────────────────┤
-│ Category Performance│ Regional Performance  │
-│                     │                       │
+│ Category Performance│ Regional Performance          │
 ├─────────────────────┴───────────────────────┤
-│           Product Risk Analysis             │
+│           Product Risk Analysis                     │
 ├─────────────────────────────────────────────┤
-│ Shipping & Returns Analysis                 │
+│ Shipping & Returns Analysis                         │
 └─────────────────────────────────────────────┘
 ```
 
