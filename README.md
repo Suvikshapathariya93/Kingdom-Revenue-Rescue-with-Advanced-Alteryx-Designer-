@@ -133,19 +133,19 @@ Used to enrich order-level information with return status.
 
 ```text
                     ┌───────────────────┐
-                    │   Orders Source   │
+                    │   Orders Source      │
                     └─────────┬─────────┘
                               │
                               ▼
                     ┌───────────────────┐
-                    │ Data Profiling &  │
-                    │ Quality Checks    │
+                    │ Data Profiling &     │
+                    │ Quality Checks       │
                     └─────────┬─────────┘
                               │
                               ▼
                     ┌───────────────────┐
-                    │ Data Preparation  │
-                    │ & Standardization │
+                    │ Data Preparation.    │
+                    │ & Standardization.   │
                     └─────────┬─────────┘
                               │
                               ▼
@@ -153,34 +153,34 @@ Used to enrich order-level information with return status.
         │                                         │
         ▼                                         ▼
 ┌───────────────┐                         ┌────────────────┐
-│ Returns Data  │                         │ Reference Data │
+│ Returns Data    │                         │ Reference Data.  │
 └───────┬───────┘                         └───────┬────────┘
         │                                         │
         └──────────────────┬──────────────────────┘
                            ▼
                     ┌───────────────┐
-                    │ Data Blending │
-                    │ & Join Logic  │
+                    │ Data Blending   │
+                    │ & Join Logic    │
                     └───────┬───────┘
                             ▼
                     ┌───────────────┐
-                    │ Transformation│
-                    │ & Metrics     │
+                    │ Transformation  │
+                    │ & Metrics       │
                     └───────┬───────┘
                             ▼
                     ┌───────────────┐
-                    │ Data Quality  │
-                    │ Validation    │
+                    │ Data Quality    │
+                    │ Validation      │
                     └───────┬───────┘
                             ▼
                     ┌───────────────┐
-                    │ Aggregation & │
-                    │ Analytics     │
+                    │ Aggregation &   │
+                    │ Analytics       │
                     └───────┬───────┘
                             ▼
                     ┌───────────────┐
-                    │ BI-Ready      │
-                    │ Output        │
+                    │ BI-Ready        │
+                    │ Output          │
                     └───────────────┘
 ```
 
